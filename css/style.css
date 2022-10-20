@@ -1,0 +1,519 @@
+header {
+  width: 98%;
+  margin-left: 1%;
+  display: flex;
+  padding-top: 15px;
+}
+header .menu_mid {
+  margin-top: -50px;
+  margin-left: -30px;
+}
+header .menu_mid h6 {
+  margin-right: 25px;
+  text-align: center;
+  font-size: 16px;
+  padding-left: 15px;
+}
+header .menu_mid ul {
+  display: flex;
+  list-style-type: none;
+  margin-top: -30px;
+}
+header .menu_mid ul li {
+  margin-left: 10px;
+}
+header .menu_mid ul li a {
+  text-decoration: none;
+}
+header .menu_right {
+  margin-left: 1100px;
+  display: flex;
+}
+header .menu_right input {
+  width: 100px;
+  height: 25px;
+  border-radius: 20px;
+  padding: 1px 2px 1px 0;
+  border: 1px solid rgba(128, 128, 128, 0.27);
+}
+header .menu_right input .me {
+  padding-left: 20px;
+}
+header .menu_right .circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+header .menu_right .circle img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+}
+header .menu_right .circle1 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+header .menu_right .circle1 img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+}
+
+section {
+  background-color: gray;
+  width: 100%;
+  margin: 0;
+}
+section .main {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 20px;
+  background-color: white;
+  padding: 20px 0 0 0;
+}
+section .main .add {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.373);
+}
+section .main .add button {
+  background-color: blue;
+  color: white;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border: 0;
+}
+section .main .recently {
+  padding: 0 30px 0 30px;
+}
+section .main .recently .cont {
+  border-bottom: 1px solid;
+  padding-top: 1px;
+}
+section .main .recently .cont i {
+  margin-top: 10px;
+}
+section .main .recently .cont h5 {
+  font-weight: 600;
+  margin-top: -18px;
+  margin-left: 15px;
+}
+section .main .recently .assigned {
+  display: flex;
+  padding-left: 5px;
+  text-align: center;
+}
+section .main .recently .assigned .starting {
+  display: flex;
+  margin-right: 70px;
+}
+section .main .recently .assigned .start_1 {
+  display: flex;
+  margin-right: 60px;
+}
+section .main .recently .assigned .Edi {
+  background-color: blue;
+  color: white;
+}
+section .main .recently .assigned i {
+  padding-top: 18px;
+}
+section .main .recently .assigned p {
+  margin-left: 15px;
+  margin-right: 500px;
+}
+section .main .recently .assigned button {
+  margin-top: 18px;
+  height: 25px;
+  border: 0;
+  border-radius: 20px;
+}
+section .main .recently .assigned span {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 50px;
+}
+
+@media (min-width: 1200px) {
+  header {
+    width: 98%;
+    margin-left: 1%;
+    display: flex;
+    padding-top: 15px;
+  }
+  header .menu_mid {
+    margin-top: -50px;
+    margin-left: -30px;
+  }
+  header .menu_mid h6 {
+    margin-right: 25px;
+    text-align: center;
+    font-size: 16px;
+    padding-left: 15px;
+  }
+  header .menu_mid ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: -30px;
+  }
+  header .menu_mid ul li {
+    margin-left: 10px;
+  }
+  header .menu_mid ul li a {
+    text-decoration: none;
+  }
+  header .menu_right {
+    margin-left: 1100px;
+    display: flex;
+  }
+  header .menu_right input {
+    width: 100px;
+    height: 25px;
+    border-radius: 20px;
+    padding: 1px 2px 1px 0;
+    border: 1px solid rgba(128, 128, 128, 0.27);
+  }
+  header .menu_right input .me {
+    padding-left: 20px;
+  }
+  header .menu_right .circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    margin-left: 10px;
+  }
+  header .menu_right .circle img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+  }
+  header .menu_right .circle1 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    margin-left: 20px;
+  }
+  header .menu_right .circle1 img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+  }
+  section {
+    background-color: gray;
+    width: 100%;
+    margin: 0;
+  }
+  section .main {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px 0 0 0;
+  }
+  section .main .add {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.373);
+  }
+  section .main .add button {
+    background-color: blue;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border: 0;
+  }
+  section .main .recently {
+    padding: 0 30px 0 30px;
+  }
+  section .main .recently .cont {
+    border-bottom: 1px solid;
+    padding-top: 1px;
+  }
+  section .main .recently .cont i {
+    margin-top: 10px;
+  }
+  section .main .recently .cont h5 {
+    font-weight: 600;
+    margin-top: -18px;
+    margin-left: 15px;
+  }
+  section .main .recently .assigned {
+    display: flex;
+    padding-left: 5px;
+    text-align: center;
+  }
+  section .main .recently .assigned .starting {
+    display: flex;
+    margin-right: 70px;
+  }
+  section .main .recently .assigned .start_1 {
+    display: flex;
+    margin-right: 60px;
+  }
+  section .main .recently .assigned .Edi {
+    background-color: blue;
+    color: white;
+  }
+  section .main .recently .assigned i {
+    padding-top: 18px;
+  }
+  section .main .recently .assigned p {
+    margin-left: 15px;
+    margin-right: 500px;
+  }
+  section .main .recently .assigned button {
+    margin-top: 18px;
+    height: 25px;
+    border: 0;
+    border-radius: 20px;
+  }
+  section .main .recently .assigned span {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 50px;
+  }
+}
+@media (max-width: 996px) {
+  header {
+    width: 98%;
+    margin-left: 1%;
+    display: flex;
+    padding-top: 15px;
+  }
+  header .menu_mid {
+    margin-top: -50px;
+  }
+  header .menu_mid h6 {
+    margin-right: 25px;
+    text-align: center;
+    font-size: 16px;
+    padding-left: 15px;
+  }
+  header .menu_mid ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: -30px;
+  }
+  header .menu_mid ul li {
+    margin-left: 10px;
+  }
+  header .menu_mid ul li a {
+    text-decoration: none;
+  }
+  header .menu_right {
+    margin-left: 450px;
+    display: flex;
+  }
+  header .menu_right input {
+    width: 100px;
+    height: 25px;
+    border-radius: 20px;
+    padding: 1px 2px 1px 0;
+    border: 1px solid rgba(128, 128, 128, 0.27);
+  }
+  header .menu_right .circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    margin-left: 10px;
+  }
+  section {
+    background-color: gray;
+    width: 100%;
+    margin: 0;
+  }
+  section .main {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px 0 0 0;
+  }
+  section .main .add {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.373);
+  }
+  section .main .add button {
+    background-color: blue;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border: 0;
+  }
+  section .main .recently {
+    padding: 0 30px 0 30px;
+  }
+  section .main .recently .cont {
+    border-bottom: 1px solid;
+    padding-top: 1px;
+  }
+  section .main .recently .cont i {
+    margin-top: 10px;
+  }
+  section .main .recently .cont h5 {
+    font-weight: 600;
+    margin-top: -18px;
+    margin-left: 15px;
+  }
+  section .main .recently .assigned {
+    display: flex;
+    padding-left: 5px;
+    text-align: center;
+  }
+  section .main .recently .assigned .starting {
+    display: flex;
+    margin-right: 35px;
+  }
+  section .main .recently .assigned .start_1 {
+    display: flex;
+    margin-right: 10px;
+  }
+  section .main .recently .assigned .Edi {
+    background-color: blue;
+    color: white;
+  }
+  section .main .recently .assigned i {
+    padding-top: 18px;
+  }
+  section .main .recently .assigned p {
+    margin-left: 15px;
+    margin-right: 450px;
+  }
+  section .main .recently .assigned button {
+    margin-top: 18px;
+    height: 25px;
+    border: 0;
+    border-radius: 20px;
+  }
+  section .main .recently .assigned span {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 50px;
+  }
+}
+@media (max-width: 556px) {
+  header {
+    width: 98%;
+    margin-left: 1%;
+    display: flex;
+    padding-top: 15px;
+  }
+  header .menu_left {
+    margin-left: 25px;
+  }
+  header .menu_mid {
+    display: none;
+    margin-top: -50px;
+    margin-left: -50px;
+  }
+  header .menu_mid h6 {
+    margin-right: 25px;
+    text-align: center;
+    font-size: 16px;
+    padding-left: 15px;
+  }
+  header .menu_mid ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: -30px;
+  }
+  header .menu_mid ul li {
+    margin-left: 10px;
+  }
+  header .menu_mid ul li a {
+    text-decoration: none;
+  }
+  header .menu_right {
+    margin-left: 200px;
+    display: flex;
+  }
+  header .menu_right input {
+    width: 100px;
+    height: 25px;
+    border-radius: 20px;
+    padding: 1px 2px 1px 0;
+    border: 1px solid rgba(128, 128, 128, 0.27);
+  }
+  header .menu_right .circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    margin-left: 10px;
+  }
+  section {
+    background-color: gray;
+    width: 100%;
+    margin: 0;
+  }
+  section .main {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px 0 0 0;
+  }
+  section .main .add {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.373);
+  }
+  section .main .add button {
+    background-color: blue;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border: 0;
+  }
+  section .main .recently {
+    padding: 0 30px 0 30px;
+  }
+  section .main .recently .cont {
+    border-bottom: 1px solid;
+    padding-top: 1px;
+  }
+  section .main .recently .cont i {
+    margin-top: 10px;
+  }
+  section .main .recently .cont h5 {
+    font-weight: 600;
+    margin-top: -18px;
+    margin-left: 15px;
+  }
+  section .main .recently .assigned {
+    display: flex;
+    padding-left: 5px;
+    text-align: center;
+  }
+  section .main .recently .assigned .starting {
+    display: flex;
+    margin-right: 35px;
+  }
+  section .main .recently .assigned .start_1 {
+    display: flex;
+    margin-right: 10px;
+  }
+  section .main .recently .assigned .Edi {
+    background-color: blue;
+    color: white;
+  }
+  section .main .recently .assigned i {
+    padding-top: 18px;
+  }
+  section .main .recently .assigned p {
+    margin-left: 15px;
+    margin-right: 50px;
+  }
+  section .main .recently .assigned button {
+    margin-top: 18px;
+    height: 25px;
+    border: 0;
+    border-radius: 20px;
+  }
+  section .main .recently .assigned span {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 50px;
+  }
+}/*# sourceMappingURL=style.css.map */

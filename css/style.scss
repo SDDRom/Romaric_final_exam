@@ -1,0 +1,17 @@
+@import './Header';
+@import './Section';
+
+@media(min-width: 1200px){
+    @import './Header'; 
+    @import './Section';
+}
+
+@media(max-width: 996px){
+    @import'./headerTablet';
+    @import'./tablet';
+}
+
+@media(max-width: 556px){
+    @import'./MobileHeader';
+    @import'./Mobile';
+}
